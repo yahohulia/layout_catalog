@@ -3,3 +3,11 @@ $image-size-width: 160px;
 $black-color: #060b35;
 $grey-color: #616070;
 $color-blue: #00acdc;
+$transition-duration: 300ms;
+$in-card-width: 166px;
+$padding: 12px 70px;
+$border-radius: 5px;
+
+:hover {
+  transition-duration: $transition-duration;
+}

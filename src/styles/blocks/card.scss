@@ -4,7 +4,7 @@
   background-color: #fff;
   width: 200px;
   height: 408px;
-  border-radius: 5px;
+  border-radius: $border-radius;
   border: 1px solid #f3f3f3;
 
   &__product {
@@ -20,7 +20,7 @@
   }
 
   &__name {
-    width: 166px;
+    width: $in-card-width;
     height: 36px;
     font-size: 12px;
     font-weight: 500;
@@ -62,14 +62,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 166px;
+    width: $in-card-width;
     height: 40px;
     border-radius: 5px;
     background-color: $color-blue;
     margin-top: 16px;
 
     &-buy {
-      padding: 12px 70px;
+      padding: $padding;
       text-align: center;
       text-decoration: none;
       color: #fff;
@@ -77,6 +77,7 @@
       font-weight: 700;
       font-size: 14px;
       line-height: 16px;
+      transition: background-color $transition-duration;
     }
   }
 }
