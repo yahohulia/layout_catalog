@@ -7,7 +7,6 @@ $transition-duration: 300ms;
 $in-card-width: 166px;
 $padding: 12px 70px;
 $border-radius: 5px;
-
-:hover {
-  transition-duration: $transition-duration;
-}
+$white: #fff;
+$title-hover-color: #34568b;
+$card-width: 200px;

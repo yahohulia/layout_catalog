@@ -1,11 +1,12 @@
 .card {
   display: flex;
   box-sizing: border-box;
-  background-color: #fff;
-  width: 200px;
+  background-color: $white;
+  width: $card-width;
   height: 408px;
   border-radius: $border-radius;
   border: 1px solid #f3f3f3;
+  transition: transform $transition-duration;
 
   &__product {
     margin: 16px;
@@ -72,12 +73,14 @@
       padding: $padding;
       text-align: center;
       text-decoration: none;
-      color: #fff;
+      color: $white;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 14px;
       line-height: 16px;
-      transition: background-color $transition-duration;
+      transition:
+        background-color $transition-duration,
+        color $transition-duration;
     }
   }
 }

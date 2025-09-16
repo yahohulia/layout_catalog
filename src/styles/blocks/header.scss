@@ -2,7 +2,7 @@
   box-sizing: border-box;
   box-shadow: 0 2px 4px 0 #0000000d;
   display: flex;
-  background-color: #fff;
+  background-color: $white;
   padding: 0 50px;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +44,7 @@
 
 .nav__link:hover {
   color: $color-blue;
+  transition: color $transition-duration;
 }
 
 .nav__link:active {
